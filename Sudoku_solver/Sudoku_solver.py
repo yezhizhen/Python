@@ -7,7 +7,7 @@ class Solution(object):
         #driver of starting
         #first find the place to start
         
-        self.solveunit(board,0,0)
+        return self.solveunit(board,0,0)
                         
                         
     def findtosolve(self, board, x, y):
